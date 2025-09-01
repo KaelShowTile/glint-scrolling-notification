@@ -50,6 +50,10 @@ body.gsn-notification-hidden{
     line-height: 34px;
 }
 
+.glint-notification-content a{
+    color: #000;
+}
+
 .glint-notification-content .avia-button-wrap .avia-button{
     padding: 8px 10px 6px;
     font-size: 12px;
