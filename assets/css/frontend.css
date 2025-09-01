@@ -1,0 +1,72 @@
+.glint-scrolling-notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 34px;
+    z-index: 9999;
+    background: #61cae9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+.glint-scrolling-notification .swiper-wrapper{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    pointer-events: none;
+    align-items: center;
+}
+
+body.gsn-notification-visible{
+    padding-top: 34px;
+    transition: padding-top 0.3s ease;
+}
+
+body.gsn-notification-hidden{
+    padding-top: 0 !important;
+}
+
+.glint-scrolling-notification.gsn-hidden{
+    transform: translateY(-100%);
+}
+
+.glint-swiper-notifications {
+    width: 100%;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.glint-notification-content {
+    text-align: center;
+    padding: 0 20px;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.glint-notification-content p{
+    line-height: 34px;
+}
+
+.glint-notification-content .avia-button-wrap .avia-button{
+    padding: 8px 10px 6px;
+    font-size: 12px;
+}
+
+.glint-scrolling-notification.hidden {
+    transform: translateY(-100%);
+}
+
+.glint-swiper-notifications {
+    pointer-events: none;
+}
+
+.glint-notification-content {
+    pointer-events: auto;
+}
+
+.notification-btn-left{
+    text-align: left;
+}

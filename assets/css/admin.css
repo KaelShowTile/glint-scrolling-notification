@@ -1,0 +1,11 @@
+#gsn_expiry_fields {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.gsn-datetime-picker {
+    width: 100%;
+    max-width: 250px;
+}
