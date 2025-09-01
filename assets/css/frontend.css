@@ -21,7 +21,7 @@
 }
 
 body.gsn-notification-visible{
-    padding-top: 34px;
+    padding-top: 34px !important;
     transition: padding-top 0.3s ease;
 }
 
