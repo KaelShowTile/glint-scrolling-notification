@@ -74,3 +74,8 @@ body.gsn-notification-hidden{
 .notification-btn-left{
     text-align: left;
 }
+
+@media only screen and (max-width: 480px) {
+    .glint-scrolling-notification .swiper-wrapper{width: 100%;}
+    .glint-notification-content{padding: 0;}
+}
